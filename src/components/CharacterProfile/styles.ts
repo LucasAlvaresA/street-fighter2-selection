@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 80px;
-    height: 80px;
-    background-color: red;
+    width: 130px;
+    height: 185px;
 `;
 
 export const Icon = styled.img`

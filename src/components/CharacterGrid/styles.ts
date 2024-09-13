@@ -12,10 +12,14 @@ interface CharacterIconProps {
 export const CharacterIcon = styled.img<CharacterIconProps>`
     width: 50px;
     height: 80px;
+    border: 2.5px solid transparent;
+    &:hover {
+        cursor: pointer;
+    }
 
     ${({ selected }) =>
         selected &&
         `
-            border: 2.5px solid #47A8DB
-        `}
+            border-color: #47a8db
+        `};
 `;
