@@ -1,0 +1,88 @@
+import { Character } from "../types/character";
+
+export const characters: Character[] = [
+    {
+        id: 1,
+        picture: "ryu.png",
+        gridPicture: "ryu-grid.png",
+        country: "japan.png",
+        selected: true,
+    },
+    {
+        id: 2,
+        picture: "honda.png",
+        gridPicture: "honda-grid.png",
+        country: "japan.png",
+        selected: false,
+    },
+    {
+        id: 3,
+        picture: "blanka.png",
+        gridPicture: "blanka-grid.png",
+        country: "brazil.png",
+        selected: false,
+    },
+    {
+        id: 4,
+        picture: "guile.png",
+        gridPicture: "guile-grid.png",
+        country: "usa.png",
+        selected: false,
+    },
+    {
+        id: 5,
+        picture: "balrog.png",
+        gridPicture: "balrog-grid.png",
+        country: "usa.png",
+        selected: false,
+    },
+    {
+        id: 6,
+        picture: "vega.png",
+        gridPicture: "vega-grid.png",
+        country: "spain.png",
+        selected: false,
+    },
+    {
+        id: 7,
+        picture: "ken.png",
+        gridPicture: "ken-grid.png",
+        country: "usa.png",
+        selected: false,
+    },
+    {
+        id: 8,
+        picture: "chunli.png",
+        gridPicture: "chunli-grid.png",
+        country: "china.png",
+        selected: false,
+    },
+    {
+        id: 9,
+        picture: "zangief.png",
+        gridPicture: "zangief-grid.png",
+        country: "ussr.png",
+        selected: false,
+    },
+    {
+        id: 10,
+        picture: "dhalsim.png",
+        gridPicture: "dhalsim-grid.png",
+        country: "india.png",
+        selected: false,
+    },
+    {
+        id: 11,
+        picture: "sagat.png",
+        gridPicture: "sagat-grid.png",
+        country: "thailand.png",
+        selected: false,
+    },
+    {
+        id: 12,
+        picture: "bison.png",
+        gridPicture: "bison-grid.png",
+        country: "thailand.png",
+        selected: false,
+    },
+];
