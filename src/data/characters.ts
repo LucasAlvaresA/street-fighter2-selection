@@ -7,6 +7,12 @@ export const characters: Character[] = [
         gridPicture: "ryu-grid.png",
         country: "japan.png",
         selected: true,
+        iconPosition: {
+            top: 115,
+            left: 240,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 2,
@@ -14,6 +20,12 @@ export const characters: Character[] = [
         gridPicture: "honda-grid.png",
         country: "japan.png",
         selected: false,
+        iconPosition: {
+            top: 45,
+            left: 260,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 3,
@@ -21,6 +33,12 @@ export const characters: Character[] = [
         gridPicture: "blanka-grid.png",
         country: "brazil.png",
         selected: false,
+        iconPosition: {
+            top: 160,
+            left: 372,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 4,
@@ -28,6 +46,12 @@ export const characters: Character[] = [
         gridPicture: "guile-grid.png",
         country: "usa.png",
         selected: false,
+        iconPosition: {
+            top: 88,
+            left: 402,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 5,
@@ -35,6 +59,12 @@ export const characters: Character[] = [
         gridPicture: "balrog-grid.png",
         country: "usa.png",
         selected: false,
+        iconPosition: {
+            top: 25,
+            left: 325,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 6,
@@ -42,6 +72,12 @@ export const characters: Character[] = [
         gridPicture: "vega-grid.png",
         country: "spain.png",
         selected: false,
+        iconPosition: {
+            top: 2,
+            left: 2,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 7,
@@ -49,6 +85,12 @@ export const characters: Character[] = [
         gridPicture: "ken-grid.png",
         country: "usa.png",
         selected: false,
+        iconPosition: {
+            top: 2,
+            left: 394,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 8,
@@ -56,6 +98,12 @@ export const characters: Character[] = [
         gridPicture: "chunli-grid.png",
         country: "china.png",
         selected: false,
+        iconPosition: {
+            top: 20,
+            left: 192,
+            width: 56,
+            height: 64,
+        },
     },
     {
         id: 9,
@@ -63,6 +111,12 @@ export const characters: Character[] = [
         gridPicture: "zangief-grid.png",
         country: "ussr.png",
         selected: false,
+        iconPosition: {
+            top: 20,
+            left: 95,
+            width: 60,
+            height: 72,
+        },
     },
     {
         id: 10,
@@ -70,6 +124,12 @@ export const characters: Character[] = [
         gridPicture: "dhalsim-grid.png",
         country: "india.png",
         selected: false,
+        iconPosition: {
+            top: 100,
+            left: 103,
+            width: 60,
+            height: 68,
+        },
     },
     {
         id: 11,
@@ -77,6 +137,12 @@ export const characters: Character[] = [
         gridPicture: "sagat-grid.png",
         country: "thailand.png",
         selected: false,
+        iconPosition: {
+            top: 150,
+            left: 180,
+            width: 58,
+            height: 66,
+        },
     },
     {
         id: 12,
@@ -84,5 +150,11 @@ export const characters: Character[] = [
         gridPicture: "bison-grid.png",
         country: "thailand.png",
         selected: false,
+        iconPosition: {
+            top: 150,
+            left: 180,
+            width: 58,
+            height: 66,
+        },
     },
 ];

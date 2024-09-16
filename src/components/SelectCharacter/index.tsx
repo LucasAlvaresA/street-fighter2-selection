@@ -5,15 +5,21 @@ import { CharacterProfile } from "../CharacterProfile";
 import { useState } from "react";
 import { Character } from "../../types/character";
 
-export const SelectCharacter = () => {
+type Props = {
+    onCharacterSelect: (character: Character) => void;
+};
+
+export const SelectCharacter = ({ onCharacterSelect }: Props) => {
     const [characters, setCharacters] =
         useState<Character[]>(initialCharacters);
+
     const [selectedCharacter, setSelectedCharacter] = useState<Character>(
         characters[0]
     );
 
     const handleCharacterClick = (clickedCharacter: Character) => {
         setSelectedCharacter(clickedCharacter);
+        onCharacterSelect(clickedCharacter);
 
         setCharacters((prevCharacters) =>
             prevCharacters.map((character) =>

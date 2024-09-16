@@ -4,4 +4,5 @@ export type Character = {
     gridPicture: string;
     country: string;
     selected: boolean;
+    iconPosition: { top: number; left: number; width: number; height: number };
 };
