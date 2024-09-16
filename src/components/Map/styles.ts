@@ -8,6 +8,10 @@ export const Container = styled.div`
     background-size: cover;
     background-position: center;
     position: relative;
+
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
 `;
 
 export const Icon = styled.img`

@@ -34,6 +34,10 @@ export const SelectCharacter = ({ onCharacterSelect }: Props) => {
         <Styled.Container>
             <Styled.ProfileArea>
                 <CharacterProfile characterIcon={selectedCharacter.picture} />
+                <Styled.CharacterCountry
+                    src={`/assets/flags/${selectedCharacter.country}`}
+                    alt="Character Icon"
+                />
             </Styled.ProfileArea>
             <Styled.GridCharacters>
                 {characters.map((item, index) => {
